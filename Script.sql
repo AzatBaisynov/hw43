@@ -38,25 +38,24 @@ select price from product;
 select * from user_info;
 select * from product;
 
-2. Можно ли выполнить следующую команду (True / False)
+2. Mojno li vypolnit sleduyusuyu komandu (True / False)
 FROM Customers
-SELECT last_name , first_name    ?------------- False
+SELECT last_name , first_name    ------------- False
 ;
 
 3;
 select id,name from user_info;
 
-4. Можно ли выполнить следующую команду (True / False);
+4. mojno li vypolnit sleduyushuu komandu (True / False);
 Select   strt_date, monthly_payment
-FROM   packages;           ?-------------------- True
+FROM   packages;           -------------------- True
 ;
 
-5. Можно ли выполнить следующую команду (True / False)
-SeleCT        last_NAME , fiRST_NamE , FROM customers    ?----- False
+5. mojno li vypolnit sleduyushuu komandu  (True / False)
+SeleCT        last_NAME , fiRST_NamE , FROM customers   ----- False
 
-6. Сделайте данные таблицы так чтобы, left, right, outer, inner join таблиц
-Пользователь, Продукт давали разные результаты;
-
+6. sdelaite dannye tablicy tak choby, left, right, outer, inner join tablic
+polzovatel, davali raznye rezultaty:
 select * from user_info uf left join product p on uf.product = p.id;
 select * from user_info uf right join product p on uf.product = p.id;
 select * from user_info uf full outer join product p on uf.product = p.id;
